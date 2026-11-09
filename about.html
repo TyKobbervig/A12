@@ -4,53 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <h1>About This Website</h1>
+    <header class="site-header">
+        <h1>About This Website</h1>
 
-    <p>
-        This website demonstrates basic HTML, CSS, and JavaScript
-        for making a peanut butter and jelly sandwich.
-    </p>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="home.html">Recipes</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h2>Using External Data</h2>
+    <main class="page">
 
-    <p>
-        This website also demonstrates how JavaScript can retrieve
-        and display external JSON data using the Fetch API.
-    </p>
+        <section class="content-box">
+            <h2>Website Overview</h2>
 
-    <p>
-        Data is requested from an external source and does not arrive
-        immediately. After the data is received, specific values are
-        extracted and displayed on the page. This demonstrates
-        asynchronous behavior and the flow of data from request,
-        to response, to display.
-    </p>
+            <p>
+                This website demonstrates basic HTML, CSS, and JavaScript
+                concepts through a peanut butter and jelly sandwich theme.
+                It combines static content, user interaction, external data,
+                state management, and performance improvements into a single
+                web application.
+            </p>
+        </section>
 
-    <p>
-        Instead of showing raw JSON, the application selects
-        specific information and formats it clearly for users.
-    </p>
+        <section class="content-box">
+            <h2>Using External Data</h2>
 
-    <h2>State Management</h2>
+            <p>
+                This website demonstrates how JavaScript can retrieve and
+                display external JSON data using the Fetch API.
+            </p>
 
-    <p>
-        The website also demonstrates state management using JavaScript.
-        State allows the application to store information, update it
-        when the user interacts with the page, and immediately reflect
-        those changes in the user interface.
-    </p>
+            <p>
+                Data is requested from an external source and does not arrive
+                immediately. After the data is received, specific values are
+                extracted and displayed on the page. This demonstrates
+                asynchronous behavior and the flow of data from request,
+                to response, to display.
+            </p>
 
-    <p>
-        Users can interact with controls on the page to change values.
-        The application keeps the displayed information synchronized
-        with the current state at all times.
-    </p>
+            <p>
+                Instead of showing raw JSON data, the application selects
+                useful information and formats it clearly for users.
+            </p>
+        </section>
 
-    <a href="index.html">Home</a>
+        <section class="content-box">
+            <h2>State Management</h2>
+
+            <p>
+                The website demonstrates state management using JavaScript.
+                State allows the application to store information, update it
+                when users interact with the page, and immediately reflect
+                those changes in the user interface.
+            </p>
+
+            <p>
+                Users can change the sandwich counter through button clicks.
+                The application keeps the displayed information synchronized
+                with the current value at all times.
+            </p>
+        </section>
+
+        <section class="content-box">
+            <h2>Performance Improvements</h2>
+
+            <p>
+                The application was improved to reduce unnecessary work and
+                improve efficiency. User information from the external API
+                is assembled first and then displayed with a single page
+                update instead of repeatedly updating the page for each user.
+            </p>
+
+            <p>
+                The website also displays only a limited set of users from
+                the API rather than showing every available record at once.
+                This keeps the interface cleaner and reduces the amount of
+                content that must be rendered.
+            </p>
+        </section>
+
+    </main>
 
 </body>
 </html>
