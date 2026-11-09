@@ -8,29 +8,6 @@ h1 {
     color: darkred;
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-#message {
-    font-weight: bold;
-    margin-top: 15px;
-}
-
-#user-container {
-    margin-top: 15px;
-}
-
-.user-card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #f9f9f9;
-}
-
 /* Navigation */
 
 .nav-menu {
@@ -49,7 +26,7 @@ button {
     font-weight: bold;
 }
 
-/* Content Boxes */
+/* Content Sections */
 
 .content-box {
     margin: 20px auto;
@@ -60,7 +37,22 @@ button {
     background-color: #ffffff;
 }
 
-/* Week 11 State Management */
+/* Buttons */
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Cooking Tip Message */
+
+#message {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Week 11 Counter */
 
 #counter {
     font-size: 24px;
@@ -78,4 +70,18 @@ button {
 #minusBtn {
     width: 50px;
     margin: 5px;
+}
+
+/* API User Cards */
+
+#user-container {
+    margin-top: 15px;
+}
+
+.user-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
 }
